@@ -33,6 +33,6 @@ a {
   color: #1098AD;
 }
 
-.nav-list .nav-list-link.active {
-  color: #FF0000;
+.nav-list-link.active {
+  color: #FF0000 !important;
 }
