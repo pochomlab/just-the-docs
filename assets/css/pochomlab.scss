@@ -1,0 +1,30 @@
+.pl-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.pl-card {
+  display: block;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: .75rem;
+  background: #fff;
+  text-decoration: none;
+}
+
+.pl-card:hover {
+  border-color: rgba(0,0,0,.22);
+}
+
+.pl-card-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: .25rem;
+}
+
+.pl-card-desc {
+  color: rgba(0,0,0,.65);
+  line-height: 1.4;
+}
