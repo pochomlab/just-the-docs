@@ -29,18 +29,55 @@
   line-height: 1.4;
 }
 
-/* ふつうのリンク */
+/* ===============================
+   Brand Color
+================================= */
+
+:root {
+  --pochom-accent: #1098AD;
+  --pochom-accent-dark: #0B7285;
+}
+
+/* ===============================
+   Main content links
+================================= */
+
 a {
-  color: #1098AD;
+  color: var(--pochom-accent);
 }
 
-/* サイドバーの現在ページ */
+a:hover {
+  color: var(--pochom-accent-dark);
+}
+
+/* ===============================
+   Sidebar links
+================================= */
+
+/* 通常 */
+.nav-list-link {
+  color: var(--pochom-accent);
+}
+
+/* hover */
+.nav-list-link:hover {
+  color: var(--pochom-accent-dark);
+}
+
+/* active（現在ページ） */
 .nav-list-link.active {
-  color: #1098AD !important;
+  color: var(--pochom-accent) !important;
+  font-weight: 600;
 }
 
-/* hover も統一したいなら */
-a:hover,
-.nav-list-link.active:hover {
-  color: #0B7285;
+/* ===============================
+   Header GitHub link（右上）
+================================= */
+
+.aux-nav-list-item a {
+  color: var(--pochom-accent);
+}
+
+.aux-nav-list-item a:hover {
+  color: var(--pochom-accent-dark);
 }
