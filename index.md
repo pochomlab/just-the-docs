@@ -1,6 +1,7 @@
 ---
 title: PochomLab
 nav_order: 1
+layout: home
 ---
 
 # PochomLab

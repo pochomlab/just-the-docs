@@ -21,3 +21,7 @@ footer_content: "© 2026 PochomLab"
 # --- GitHub Pages ---
 plugins:
   - jekyll-remote-theme
+
+just_the_docs:
+  custom_css:
+    - "css/custom.css"
