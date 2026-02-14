@@ -81,3 +81,11 @@ a:hover {
 .aux-nav-list-item a:hover {
   color: var(--pochom-accent-dark);
 }
+
+/* ===============================
+   Sidebar background
+================================= */
+
+.side-bar {
+  background-color: #E6F7FA; /* Soft Cyanの超薄い版 */
+}
