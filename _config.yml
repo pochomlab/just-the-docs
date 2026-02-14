@@ -1,7 +1,7 @@
 title: PochomLab
 description: A quiet research lab where creation becomes a light.
-url: "hhttps://pochomlab.com/just-the-docs/#main-content"   # 独自ドメイン
-baseurl: ""                    # ルート運用なら空
+url: "https://pochomlab.com"   # 独自ドメイン
+baseurl: "/just-the-docs"                   # ルート運用なら空
 
 # --- Theme / Build ---
 remote_theme: just-the-docs/just-the-docs
