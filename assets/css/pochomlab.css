@@ -29,10 +29,6 @@
   line-height: 1.4;
 }
 
-a {
-  color: #1098AD;
-}
-
-.nav-list-link.active {
-  color: #FF0000 !important;
+:root {
+  --link-color: #1098AD;
 }
