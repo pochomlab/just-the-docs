@@ -28,3 +28,11 @@
   color: rgba(0, 0, 0, 0.65);
   line-height: 1.4;
 }
+
+a {
+  color: #FF0000;
+}
+
+.nav-list .nav-list-link.active {
+  color: #FF0000;
+}
