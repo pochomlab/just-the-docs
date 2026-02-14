@@ -29,6 +29,18 @@
   line-height: 1.4;
 }
 
-:root {
-  --link-color: #1098AD;
+/* ふつうのリンク */
+a {
+  color: #1098AD;
+}
+
+/* サイドバーの現在ページ */
+.nav-list-link.active {
+  color: #1098AD !important;
+}
+
+/* hover も統一したいなら */
+a:hover,
+.nav-list-link.active:hover {
+  color: #0B7285;
 }
