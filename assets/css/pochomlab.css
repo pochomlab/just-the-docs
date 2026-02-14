@@ -1,10 +1,8 @@
 html { background: #ff00ff !important; }
 
 .pl-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1rem;
-  margin-top: 1.25rem;
+  display: grid !important;
+  background: red !important;
 }
 
 .pl-card {
