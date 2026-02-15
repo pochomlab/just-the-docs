@@ -1,5 +1,5 @@
 ---
 title: Reproducibility
-parent: Docs
+parent: ドキュメント
 nav_order: 3
 ---

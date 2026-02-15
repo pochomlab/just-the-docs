@@ -1,6 +1,6 @@
 ---
 title: Production
-parent: Docs
+parent: ドキュメント
 nav_order: 1
 ---
 

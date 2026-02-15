@@ -1,5 +1,5 @@
 ---
 title: Workflow
-parent: Docs
+parent: ドキュメント
 nav_order: 2
 ---
