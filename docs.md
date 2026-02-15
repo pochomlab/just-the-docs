@@ -1,6 +1,6 @@
 ---
-title: Docs
-nav_order: 2
+title: ドキュメント
+nav_order: 4
 has_children: true
 ---
  
