@@ -13,20 +13,20 @@ nav_order: 2
 </style>
 
 <div class="eg-grid">
-  <a class="eg-card" href="/egaki-sho/ch1/">
-    <img src="/assets/images/ch1.jpg" alt="第1章">
+  <a class="eg-card" href="{{ '/egaki-sho/ch1/' | relative_url }}">
+    <img src="{{ '/assets/images/ch1.jpg' | relative_url }}" alt="第1章">
     <div class="eg-meta"><span class="eg-badge">第1章</span><span class="eg-badge">8灯</span>発売中</div>
   </a>
-  <a class="eg-card" href="/egaki-sho/ch2/">
-    <img src="/assets/images/ch2.jpg" alt="第2章">
+  <a class="eg-card" href="{{ '/egaki-sho/ch2/' | relative_url }}">
+    <img src="{{ '/assets/images/ch2.jpg' | relative_url }}" alt="第2章">
     <div class="eg-meta"><span class="eg-badge">第2章</span><span class="eg-badge">8灯</span>発売中</div>
   </a>
-  <a class="eg-card" href="/egaki-sho/ch3/">
-    <img src="/assets/images/ch3.jpg" alt="第3章">
+  <a class="eg-card" href="{{ '/egaki-sho/ch3/' | relative_url }}">
+    <img src="{{ '/assets/images/ch3.jpg' | relative_url }}" alt="第3章">
     <div class="eg-meta"><span class="eg-badge">第3章</span><span class="eg-badge">8灯</span>発売中</div>
   </a>
-  <a class="eg-card" href="/egaki-sho/ch4/">
-    <img src="/assets/images/ch4.jpg" alt="第4章">
+  <a class="eg-card" href="{{ '/egaki-sho/ch4/' | relative_url }}">
+    <img src="{{ '/assets/images/ch4.jpg' | relative_url }}" alt="第4章">
     <div class="eg-meta"><span class="eg-badge">第4章</span><span class="eg-badge">11灯</span>発売中</div>
   </a>
 </div>
@@ -41,21 +41,21 @@ nav_order: 2
 
 <div class="eg-wrap">
   <div class="eg-grid">
-    <a class="eg-card" href="/egaki-sho/ch1/">
+    <a class="eg-card" href="{{ '/egaki-sho/ch1/' | relative_url }}">
       <div class="eg-bar"></div>
-      <img src="/assets/images/ch1.jpg" alt="第1章">
+      <img src="{{ '/assets/images/ch1.jpg' | relative_url }}" alt="第1章">
     </a>
-    <a class="eg-card" href="/egaki-sho/ch2/">
+    <a class="eg-card" href="{{ '/egaki-sho/ch2/' | relative_url }}">
       <div class="eg-bar" style="background:#a582aa"></div>
-      <img src="/assets/images/ch2.jpg" alt="第2章">
+      <img src="{{ '/assets/images/ch2.jpg' | relative_url }}" alt="第2章">
     </a>
-    <a class="eg-card" href="/egaki-sho/ch3/">
+    <a class="eg-card" href="{{ '/egaki-sho/ch3/' | relative_url }}">
       <div class="eg-bar" style="background:#9bd0ff"></div>
-      <img src="/assets/images/ch3.jpg" alt="第3章">
+      <img src="{{ '/assets/images/ch3.jpg' | relative_url }}" alt="第3章">
     </a>
-    <a class="eg-card" href="/egaki-sho/ch4/">
+    <a class="eg-card" href="{{ '/egaki-sho/ch4/' | relative_url }}">
       <div class="eg-bar" style="background:#c7f0a6"></div>
-      <img src="/assets/images/ch4.jpg" alt="第4章">
+      <img src="{{ '/assets/images/ch4.jpg' | relative_url }}" alt="第4章">
     </a>
   </div>
 </div>
@@ -67,8 +67,8 @@ nav_order: 2
 </style>
 
 <div class="eg-row">
-  <a class="eg-item" href="/egaki-sho/ch1/"><img src="/assets/images/ch1.jpg" alt="第1章"></a>
-  <a class="eg-item" href="/egaki-sho/ch2/"><img src="/assets/images/ch2.jpg" alt="第2章"></a>
-  <a class="eg-item" href="/egaki-sho/ch3/"><img src="/assets/images/ch3.jpg" alt="第3章"></a>
-  <a class="eg-item" href="/egaki-sho/ch4/"><img src="/assets/images/ch4.jpg" alt="第4章"></a>
+  <a class="eg-item" href="{{ '/egaki-sho/ch1/' | relative_url }}"><img src="{{ '/assets/images/ch1.jpg' | relative_url }}" alt="第1章"></a>
+  <a class="eg-item" href="{{ '/egaki-sho/ch2/' | relative_url }}"><img src="{{ '/assets/images/ch2.jpg' | relative_url }}" alt="第2章"></a>
+  <a class="eg-item" href="{{ '/egaki-sho/ch3/' | relative_url }}"><img src="{{ '/assets/images/ch3.jpg' | relative_url }}" alt="第3章"></a>
+  <a class="eg-item" href="{{ '/egaki-sho/ch4/' | relative_url }}"><img src="{{ '/assets/images/ch4.jpg' | relative_url }}" alt="第4章"></a>
 </div>
