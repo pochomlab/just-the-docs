@@ -87,5 +87,9 @@ a:hover {
 ================================= */
 
 .side-bar {
-  background-color: #E6F7FA; /* Soft Cyanの超薄い版 */
+/* Soft Cyanの超薄い版 */
+/*
+  background-color: #E6F7FA;
+*/
+  background-color: #F9FFFF;
 }
